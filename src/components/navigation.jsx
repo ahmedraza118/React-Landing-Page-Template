@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -19,21 +18,16 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <img src="img/portfolio/Fitlogo.png" alt="Logo" className="logo" />
-         
-       
         </div>
 
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
-
-        > 
-       
-          
+        >
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-              Timings 
+                Timings
               </a>
             </li>
             <li>
@@ -42,7 +36,11 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-            
+              <a href="#testimonials" className="page-scroll">
+                Testimonials
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="page-scroll">
                 Contact
               </a>

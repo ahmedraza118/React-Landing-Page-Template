@@ -15,6 +15,7 @@ export const About = (props) => {
               src="img/portfolio/schedule.png"
               alt="Service Image"
               class="service-img"
+              id="about-imgf"
             />
           </div>
     </div>

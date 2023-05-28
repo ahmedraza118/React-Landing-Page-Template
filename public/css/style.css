@@ -155,7 +155,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #2a2a2a 0%, #ff0000 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -264,6 +264,8 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  background-image: linear-gradient(to right, #000000, #501717);
+
   
 }
 #about h3 {
@@ -291,11 +293,9 @@ header .intro-text {
   padding: 0;
 }
 #containerabout{
-  background: linear-gradient(to right, #292b2d 0%, #c61e1e 100%);
+  background-image: linear-gradient(to right, #000000, #501717);
 }
-#service-imgf {
-  width: 45%;
-}
+
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
@@ -305,12 +305,13 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  width: 300px;
+  width: 414px;
   margin-top: 10px;
   background: transparent;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
+
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -351,6 +352,31 @@ header .intro-text {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .pricing-card {
+    width: 25%;
+    margin-left: 60px
+  }
+}
+.pricing-cards {
+  display: flex;
+  background-image: linear-gradient(to right, #000000, #501717);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid #b8c933;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
@@ -418,7 +444,8 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background-image: linear-gradient(to right, #000000, #501717);
+
 }
 #testimonials i {
   color: #e6e6e6;
@@ -713,7 +740,9 @@ label {
   font-size: 20px;
   margin-bottom: 5px;
 }
-
+#service-imgf{
+  width: 43%
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .services-box {
@@ -721,9 +750,21 @@ label {
   }
 
   .service-img {
-    width: 96%;
+    width: 83%;
     transition: transform 0.3s ease;
   }
+  #service-imgf{
+    width: 96%
+  }
+  #about h2{
+    position: relative;
+    margin-bottom: 65px;
+    margin-top: 48px;
+    margin-left: 57px;
+    padding-bottom: 15px;
+
+  }
+  
 }
 
 .flex-container {

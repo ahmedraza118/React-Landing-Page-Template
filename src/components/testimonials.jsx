@@ -7,25 +7,24 @@ export const Testimonials = (props) => {
         <div className="section-title text-center">
           <h2>What our clients say</h2>
         </div>
-        <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  <div className="testimonial">
-                    <div className="testimonial-image">
-                      {" "}
-                      <img src={d.img} alt="" />{" "}
-                    </div>
-                    <div className="testimonial-content">
-                      <p>"{d.text}"</p>
-                      <div className="testimonial-meta"> - {d.name} </div>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : "loading"}
-        </div>
+        
       </div>
+      <div className="pricing-cards">
+      <div className="pricing-card">
+        <img src="img/portfolio/testimonial1.png" alt="Features" className="features-image" />
+      </div>
+
+      <div className="pricing-card">
+      <img src="img/portfolio/testimonial2.png" alt="Features" className="features-image" />
+      </div>
+
+      <div className="pricing-card">
+      <img src="img/portfolio/testimonial3.png" alt="Features" className="features-image" />
+      </div>
+      <div className="pricing-card">
+      <img src="img/portfolio/testimonial4.png" alt="Features" className="features-image" />
+      </div>
+    </div>
     </div>
   );
 };
