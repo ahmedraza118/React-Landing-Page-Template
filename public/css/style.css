@@ -502,8 +502,8 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+ 
+  background-image: linear-gradient(to right, #000000, #501717);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -515,6 +515,7 @@ header .intro-text {
 #contact h2 {
   color: #fff;
   margin-top: 10px;
+  background-image: linear-gradient(to right, #000000, #501717);
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -528,11 +529,14 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
+ 
   color: #fff;
-  margin-top: 80px;
-  margin-bottom: 25px;
-  padding-bottom: 20px;
-  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  padding-bottom: 18px;
+  font-weight: 800;
+
+
 }
 #contact form {
   padding-top: 20px;
@@ -628,12 +632,13 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #000000;
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: #fff;
   font-size: 14px;
+
 }
 #footer a {
   color: #608dfd;

@@ -75,7 +75,7 @@ export const Header = (props) => {
                 </div>
                 <a
                   href="https://wa.me/+447477182176"
-                  className="btn btn-custom btn-lg page-scroll"
+                  className="btn btn-custom btn-lg"
                 >
                   Join now
                 </a>{" "}
